@@ -78,7 +78,7 @@ const skillItem = [
 
 const Skill = () => {
   return (
-    <div className="p-4 mx-auto max-w-6xl min-h-screen" id="skills">
+    <div className="p-16 mx-auto max-w-6xl min-h-screen" id="skills">
       <Tabs defaultValue="Frontend">
         <h1 className="mt-16 text-4xl sm:text-5xl md:text-6xl font-extrabold text-black mb-12 text-center">
           Technologies
@@ -96,7 +96,7 @@ const Skill = () => {
         </TabsList>
         {skillItem.map((category, index) => (
           <TabsContent key={index} value={category.category}>
-            <div className="grid grid-cols-2  md:grid-cols-4  gap-6 sm:gap-8 mt-8">
+            <div className="grid grid-cols-2  md:grid-cols-3 lg:grid-cols-4 gap-6 sm:gap-8 mt-8">
               {category.skills.map((skill, skillIndex) => (
                 <div
                   key={skillIndex}
