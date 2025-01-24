@@ -2,7 +2,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 
 const projects = [
   {
-    name: "Spotify-Clone",
+    name: "Spotify Clone",
     description:
       "A music streaming platform with playback, volume controls, and a seamless user experience.",
     screenshot: "/images/SPOTIFYCLONE.png",
@@ -20,7 +20,7 @@ const projects = [
     demo: "https://spotifyclone-20ig.onrender.com/",
   },
   {
-    name: "Twitter-Clone",
+    name: "Twitter Clone",
     description:
       "Full-stack clone with user authentication, posts, likes, and a scalable backend.",
     screenshot: "/images/TWITTERCLONE.png",
