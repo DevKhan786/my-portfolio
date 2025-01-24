@@ -88,7 +88,7 @@ const Projects = () => {
 
         {/* Project One */}
         <TabsContent value="Project1">
-          <div className="flex flex-col md:flex-row items-center justify-between bg-white p-6 rounded-3xl shadow-lg border border-black">
+          <div className="flex flex-col md:flex-row items-center justify-between bg-white p-6 rounded-3xl shadow-lg border border-black mt-12">
             {/* Left Column: Screenshot */}
             <div className="md:w-1/2 mb-6 md:mb-0 md:block hidden">
               <img
@@ -100,7 +100,7 @@ const Projects = () => {
 
             {/* Right Column: Project Details */}
             <div className="flex flex-col items-center justify-center md:ml-10 md:w-1/2">
-              <h3 className="text-4xl font-semibold text-black mb-4">
+              <h3 className="md:text-4xl text-xl font-semibold text-black mb-4">
                 {projects[0].name}
               </h3>
               <p className="text-sm text-gray-600 mb-4">
@@ -113,7 +113,7 @@ const Projects = () => {
                     key={index}
                     src={icon}
                     alt={`tech-icon-${index}`}
-                    className="w-16 h-16 object-cover mb-4 border-black border rounded-3xl p-1"
+                    className="md:w-16 md:h-16 w-8 h-8 object-cover mb-4 border-black border rounded-3xl p-1"
                   />
                 ))}
               </div>
@@ -142,7 +142,7 @@ const Projects = () => {
 
         {/* Project Two */}
         <TabsContent value="Project2">
-          <div className="flex flex-col md:flex-row items-center justify-between bg-white p-6 rounded-3xl shadow-lg border border-black">
+          <div className="flex flex-col md:flex-row items-center justify-between bg-white p-6 rounded-3xl shadow-lg border border-black mt-12">
             {/* Left Column: Screenshot */}
             <div className="md:w-1/2 mb-6 md:mb-0 md:block hidden">
               <img
@@ -154,7 +154,7 @@ const Projects = () => {
 
             {/* Right Column: Project Details */}
             <div className="flex flex-col items-center justify-center md:ml-10 md:w-1/2">
-              <h3 className="text-4xl font-semibold text-black mb-4">
+              <h3 className="md:text-4xl text-xl font-semibold text-black mb-4">
                 {projects[1].name}
               </h3>
               <p className="text-sm text-gray-600 mb-4">
@@ -167,7 +167,7 @@ const Projects = () => {
                     key={index}
                     src={icon}
                     alt={`tech-icon-${index}`}
-                    className="w-16 h-16 object-cover mb-4 border-black border rounded-3xl p-1"
+                    className="md:w-16 md:h-16 w-8 h-8  object-cover mb-4 border-black border rounded-3xl p-1"
                   />
                 ))}
               </div>
@@ -196,7 +196,7 @@ const Projects = () => {
 
         {/* Project Three */}
         <TabsContent value="Project3">
-          <div className="flex flex-col md:flex-row items-center justify-between bg-white p-6 rounded-3xl shadow-lg border border-black">
+          <div className="flex flex-col md:flex-row items-center justify-between bg-white p-6 rounded-3xl shadow-lg border border-black mt-12">
             {/* Left Column: Screenshot */}
             <div className="md:w-1/2 mb-6 md:mb-0 md:block hidden">
               <img
@@ -208,7 +208,7 @@ const Projects = () => {
 
             {/* Right Column: Project Details */}
             <div className="flex flex-col items-center justify-center md:ml-10 md:w-1/2">
-              <h3 className="text-4xl font-semibold text-black mb-4">
+              <h3 className="md:text-4xl text-xl font-semibold text-black mb-4">
                 {projects[2].name}
               </h3>
               <p className="text-sm text-gray-600 mb-4">
@@ -222,7 +222,7 @@ const Projects = () => {
                     key={index}
                     src={icon}
                     alt={`tech-icon-${index}`}
-                    className="w-16 h-16 object-cover mb-4 border-black border rounded-3xl p-1"
+                    className="md:w-16 md:h-16 w-8 h-8 object-cover mb-4 border-black border rounded-3xl p-1"
                   />
                 ))}
               </div>
