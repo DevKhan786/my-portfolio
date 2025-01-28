@@ -8,13 +8,13 @@ const ResumeTabs = () => {
         <TabsList className="flex space-x-4">
           <TabsTrigger
             value="work"
-            className="px-2 py-2 sm:px-4 cursor-pointer text-lg font-semibold transition-all data-[state=active]:border data-[state=active]:border-black data-[state=active]:text-black text-gray-600 hover:text-black"
+            className="px-2 py-2 sm:px-4 cursor-pointer text-lg font-semibold transition-all data-[state=active]:border data-[state=active]:border-black data-[state=active]:text-black text-gray-600 hover:text-black bg-white"
           >
             Work Experience
           </TabsTrigger>
           <TabsTrigger
             value="education"
-            className="px-2 py-2 sm:px-4 cursor-pointer text-lg font-semibold transition-all data-[state=active]:border data-[state=active]:border-black data-[state=active]:text-black text-gray-600 hover:text-black"
+            className="px-2 py-2 sm:px-4 cursor-pointer text-lg font-semibold transition-all data-[state=active]:border data-[state=active]:border-black data-[state=active]:text-black text-gray-600 hover:text-black bg-white"
           >
             Education
           </TabsTrigger>
