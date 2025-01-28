@@ -127,14 +127,14 @@ const Projects = () => {
                 >
                   View Code
                 </a>
-                <a
+                {/*<a
                   href={projects[0].demo}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-red-600 text-white px-4 py-2 rounded-lg hover:scale-105 transition"
                 >
                   Live Demo
-                </a>
+                </a>*/}
               </div>
             </div>
           </div>
@@ -181,14 +181,14 @@ const Projects = () => {
                 >
                   View Code
                 </a>
-                <a
+                {/*<a
                   href={projects[1].demo}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-red-600 text-white px-4 py-2 rounded-lg hover:scale-105 transition"
                 >
                   Live Demo
-                </a>
+                </a>*/}
               </div>
             </div>
           </div>
@@ -237,14 +237,14 @@ const Projects = () => {
                 >
                   View Code
                 </a>
-                <a
+                {/*<a
                   href={projects[2].demo}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-red-600 text-white px-4 py-2 rounded-lg hover:scale-105 transition"
                 >
                   Live Demo
-                </a>
+                </a>*/}
               </div>
             </div>
           </div>
