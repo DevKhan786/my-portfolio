@@ -6,7 +6,7 @@ const Home = () => {
       className="bg-white text-center h-screen flex flex-col justify-center py-16 px-8"
       id="home"
     >
-      <h1 className="text-5xl md:text-8xl font-bold text-black mb-4">
+      <h1 className="text-4xl md:text-8xl font-bold text-black mb-4">
         Hamza Khan
       </h1>
       <h4 className="text-black text-md md:text-3xl font-semibold mb-2">
