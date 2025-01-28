@@ -5,7 +5,7 @@ const ResumeTabs = () => {
   return (
     <div className="p-4 mx-auto max-w-4xl ">
       <Tabs defaultValue="education">
-        <TabsList className="flex space-x-4">
+        <TabsList className="flex space-x-4 bg-white">
           <TabsTrigger
             value="work"
             className="px-2 py-2 sm:px-4 cursor-pointer text-lg font-semibold transition-all data-[state=active]:border data-[state=active]:border-black data-[state=active]:text-black text-gray-600 hover:text-black bg-white"

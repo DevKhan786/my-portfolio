@@ -83,7 +83,7 @@ const Skill = () => {
         <h1 className="mt-16 text-4xl sm:text-5xl md:text-6xl font-extrabold text-black mb-12 text-center">
           Technologies
         </h1>
-        <TabsList className="flex  justify-center space-x-4 sm:space-x-2 gap-2 sm:gap-4">
+        <TabsList className="flex bg-white justify-center space-x-4 sm:space-x-2 gap-2 sm:gap-4">
           {skillItem.map((category, index) => (
             <TabsTrigger
               key={index}
