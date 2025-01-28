@@ -9,14 +9,14 @@ const Home = () => {
       <h1 className="text-5xl md:text-8xl font-bold text-black mb-4">
         Hamza Khan
       </h1>
-      <h4 className="text-black text-lg md:text-3xl font-semibold mb-2">
+      <h4 className="text-black text-md md:text-3xl font-semibold mb-2">
         Freelance Software Developer
       </h4>
-      <p className="text-black text-md md:text-xl mb-8">
+      <p className="text-black text-sm md:text-xl mb-8">
         Specialised in{" "}
         <span className="font-semibold text-orange-600">JavaScript.</span>
       </p>
-      <div className="flex justify-center space-x-12 text-6xl mt-2">
+      <div className="flex justify-center space-x-12 md:text-6xl text-4xl mt-2">
         <a
           href="https://github.com/DevKhan786"
           target="_blank"
