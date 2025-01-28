@@ -59,28 +59,28 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="min-h-screen bg-white flex flex-col px-32" id="projects">
-      <h1 className="mt-16 text-6xl font-extrabold text-black mb-12 text-center">
-        Projects
-      </h1>
+    <div className="min-h-screen bg-white flex flex-col px-16" id="projects">
+     <h1 className="mt-16 text-4xl sm:text-5xl md:text-6xl font-extrabold text-black mb-12 text-center">
+          Projects
+        </h1>
 
       <Tabs defaultValue="Project1">
         <TabsList className="flex justify-center space-x-4 sm:space-x-2 gap-2 sm:gap-4 mb-8">
           <TabsTrigger
             value="Project1"
-            className="px-6 py-3 sm:px-4 sm:py-2 cursor-pointer text-sm sm:text-lg font-semibold transition-all data-[state=active]:border data-[state=active]:border-black data-[state=active]:text-black text-gray-600 hover:text-black"
+            className="px-2 py-3 sm:px-4 sm:py-2 cursor-pointer text-sm sm:text-lg font-semibold transition-all data-[state=active]:border data-[state=active]:border-black data-[state=active]:text-black text-gray-600 hover:text-black"
           >
             Project One
           </TabsTrigger>
           <TabsTrigger
             value="Project2"
-            className="px-6 py-3 sm:px-4 sm:py-2 cursor-pointer text-sm sm:text-lg font-semibold transition-all data-[state=active]:border data-[state=active]:border-black data-[state=active]:text-black text-gray-600 hover:text-black"
+            className="px-2 py-3 sm:px-4 sm:py-2 cursor-pointer text-sm sm:text-lg font-semibold transition-all data-[state=active]:border data-[state=active]:border-black data-[state=active]:text-black text-gray-600 hover:text-black"
           >
             Project Two
           </TabsTrigger>
           <TabsTrigger
             value="Project3"
-            className="px-6 py-3 sm:px-4 sm:py-2 cursor-pointer text-sm sm:text-lg font-semibold transition-all data-[state=active]:border data-[state=active]:border-black data-[state=active]:text-black text-gray-600 hover:text-black"
+            className="px-2 py-3 sm:px-4 sm:py-2 cursor-pointer text-sm sm:text-lg font-semibold transition-all data-[state=active]:border data-[state=active]:border-black data-[state=active]:text-black text-gray-600 hover:text-black"
           >
             Project Three
           </TabsTrigger>

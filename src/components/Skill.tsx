@@ -88,7 +88,7 @@ const Skill = () => {
             <TabsTrigger
               key={index}
               value={category.category}
-              className="px-6 py-3 sm:px-4 sm:py-2 cursor-pointer text-sm sm:text-lg font-semibold transition-all data-[state=active]:border data-[state=active]:border-black data-[state=active]:text-black text-gray-600 hover:text-black"
+              className="px-2 py-3 sm:px-4 sm:py-2 cursor-pointer text-sm sm:text-lg font-semibold transition-all data-[state=active]:border data-[state=active]:border-black data-[state=active]:text-black text-gray-600 hover:text-black"
             >
               {category.category}
             </TabsTrigger>

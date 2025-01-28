@@ -2,7 +2,7 @@ import ResumeTabs from "./ResumeTabs";
 
 const Main = () => {
   return (
-    <div className="h-screen bg-white flex flex-col" id="resume">
+    <div className="min-h-screen bg-white flex flex-col" id="resume">
       <h1 className="mt-16 text-6xl font-extrabold text-black mb-12 text-center">
         Resume
       </h1>
