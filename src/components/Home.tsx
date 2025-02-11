@@ -36,7 +36,7 @@ const Home = () => {
           <FaLinkedin />
         </a>
         <a
-          href="/public/CV-Compact.pdf"
+          href="/CV-Compact.pdf"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Resume"
